@@ -205,6 +205,7 @@ if __name__ == "__main__":
             num_classes
         )
 
+    print("parameters: ", sum(p.numel() for p in model.parameters()))
     print(model)
     # send to gpu
     model.to(device)
