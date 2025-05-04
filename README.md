@@ -10,8 +10,11 @@ adjustment), changing the backbone to ResNeXt, and modifying the prediction head
 from a simple linear layer to multiple layers. A bounding box is accepted if its score is greater than 0.7.
 
 ## How to install and use
+### Install environment
 conda env create -f vrdl.yaml
+### run training and validation
 python 250422_v1.py
+### run test (output submission file)
 
 
 ## How to change the model architecture
